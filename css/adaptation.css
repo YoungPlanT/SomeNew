@@ -1,0 +1,279 @@
+@font-face{
+    font-family: "Gotha";
+    src: url(gont-family/GothaProMed.otf)
+}
+@media screen and (max-width: 650px){
+    .navigationmenu{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .socaillink1{
+        word-wrap: break-word;
+        margin-left: 45px;
+    }
+    .worb{
+        margin-right: 0px;
+    }
+
+}
+@media screen and (max-width: 1435px){
+    .first-block{
+        background-size: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1.titleFB {
+        font-size: 85px;
+
+    }
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .co-ser-1,
+    .co-ser-2,
+    co-ser-3,
+    co-ser-4{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width:601px) {
+    .about-agency,
+    .about-agency-fb{
+        display: inline;
+    }
+}
+
+@media screen and (max-width:1320px) {
+    .third-block1,
+    .third-block2{
+        flex-wrap: wrap;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .pictTB{
+        width: 640px;
+        height: auto;
+    }
+    .InpRow{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-left: 10px;
+        padding-right: auto;
+        
+    }
+    .ma{
+        background-size: 170%;
+    }
+    .form{
+         background-size: 150%; 
+        background-position: center;
+    }
+    .rty{
+        font-size: 28px;
+    }
+    .descriptionKF{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .oneKF{
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-bottom: 29px;
+
+    }
+    .twoKF{
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+    .borderKF{
+        display: flex;
+        flex-direction: column;
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+    .about-agency,
+    .about-agency-fb{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .KeyFeature{
+        background-size: auto;
+        background-position: center;
+    }
+    .TWS{
+        padding-top: 55px;
+    }
+    .co-ser-1,
+    .co-ser-2,
+    co-ser-3,
+    co-ser-4{
+        width: 270px;
+        
+    }
+    .co-ser-1-fb,
+    .co-ser-2-fb,
+    .co-ser-3-fb,
+    .co-ser-4-fb{
+        width: 270px;
+}
+    .m-p3{
+        font-size: 15px
+    }
+    .tg{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .in-one{
+        max-width: auto;
+        margin-bottom: 15px;
+        margin-right: 25px;
+        margin-left: 25px;
+        
+    }
+    .bordertextTB{
+        width: auto;
+        height: auto;
+    }
+
+}
+@media screen and (max-width:1140px) {
+    .borderKF{
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .rty{
+        font-size: 26px;
+    }
+    .form{
+        background-size: 330%;  
+        background-position: center;
+    }
+    .KeyFeature{
+        height: auto;
+        background-size: 350%;
+    }
+    .about-agency
+    .about-agency-fb{
+        display: flex;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .descriptionKF{
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .borderYline{
+        flex-wrap:wrap;
+        flex-direction: column;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .yl1,
+    .yl2{
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    p3,
+    p4,
+    p5{
+        flex-wrap: wrap;
+    }
+    .color-2{
+        flex-direction: row-reverse;
+    }
+    .co-ser-2,
+    .co-ser-4,
+    .co-ser-2-fb,
+    .co-ser-4-fb{
+        margin-top: 25px;
+    }
+    .one,
+    .two{
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .line-wrap{
+        margin-top: 19px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .third-block2{
+        flex-direction: column-reverse;
+    }
+    .wtb1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wtb2{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .column1{
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+    }
+    .column2{
+        height: auto;
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .two,
+    .one{
+        width: auto;
+        height: auto;
+    }
+    .bcgcol2,
+    .bcgcol1{
+        margin-bottom: 0;
+    }
+
+}
+@media screen and (max-width:875px){
+    .bordertextTB{
+        margin-bottom: 25px;
+    }
+    .column1{
+        flex-wrap: wrap;
+        margin-right: 15px;
+    }
+    .ma{
+        background-size: 245%;
+    }
+    .column2{
+        flex-wrap: wrap;
+        margin-right: 15px;
+    }
+   .kit{
+        width: auto;
+        height: auto;
+    }
+    .co-ser-1,
+    co-ser-3,
+    .co-ser-1-fb,
+    .co-ser-3-fb{
+        margin-right: 15px;
+    }
+}
